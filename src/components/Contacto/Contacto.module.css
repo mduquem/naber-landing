@@ -12,7 +12,8 @@
 
 .Contacto button {
    margin-top: 0;
-   color: var(--white-color);
+   color: var(--primary-color);
+   background-color: var(--white-color);
 }
 
 @media (min-width: 1000px) {

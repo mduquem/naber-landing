@@ -17,7 +17,7 @@ const Landing = () => {
 
             <a href='mailto:aftermathventures.col@gmail.com'>
                <Reveal animation={Animation.BounceInLeft}>
-                  <button>Contáctanos</button>
+                  <button className='button'>Contáctanos</button>
                </Reveal>
             </a>
          </div>

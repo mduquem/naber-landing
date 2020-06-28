@@ -10,14 +10,13 @@ const Portafolio = () => {
       <div className={classes.Portafolio}>
          <div className={classes.Title}>
             <h2>¿Quiénes somos?</h2>
-            <img src={logo} alt='Logo' />
          </div>
          <ul className={classes.List}>
             <li>
                <Reveal>
                   <h3>
                      Somos una empresa tecnológica enfocada en facilitar la vida en las propiedades
-                     horizontales para los administradores, propietarios, arrendatarios, habitantes
+                     horizontales para los administradores, propietarios, habitantes, arrendatarios
                      y lobby por medio de una APP (Web y Móvil).
                   </h3>
                </Reveal>

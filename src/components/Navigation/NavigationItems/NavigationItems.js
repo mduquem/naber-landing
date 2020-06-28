@@ -11,7 +11,7 @@ const NavigationItems = (props) => {
                Inicio
             </NavigationItem>
             <NavigationItem clicked={props.clicked} link='#quienes'>
-               Quiénes somos?
+               ¿Quiénes somos?
             </NavigationItem>
             <NavigationItem clicked={props.clicked} link='#beneficios'>
                Beneficios para ti

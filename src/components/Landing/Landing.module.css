@@ -1,28 +1,32 @@
 .Landing {
-  text-align: center;
-  margin-top: 90px;
+   text-align: center;
+   margin-top: 90px;
 }
 
 .Logo {
-  display: none;
+   display: none;
 }
 
 .Landing h1 {
-  margin-bottom: 0;
+   margin-bottom: 0;
 }
 
 .Landing h2 {
-  margin-bottom: 30px;
+   margin-bottom: 30px;
 }
 
 .Landing h2 em {
-  text-decoration: line-through;
-  font-style: normal;
+   text-decoration: line-through;
+   font-style: normal;
+}
+
+.button {
+   border-radius: 15px;
 }
 
 @media (min-width: 1000px) {
-  .Landing {
-    width: 600px;
-    margin: 150px auto 50px auto;
-  }
+   .Landing {
+      width: 600px;
+      margin: 150px auto 50px auto;
+   }
 }

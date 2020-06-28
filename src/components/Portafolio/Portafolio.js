@@ -11,7 +11,6 @@ const Portafolio = () => {
          <div className={classes.Title}>
             <h2>¿Quiénes somos?</h2>
             <img src={logo} alt='Logo' />
-            <hr />
          </div>
          <ul className={classes.List}>
             <li>

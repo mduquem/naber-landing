@@ -8,6 +8,12 @@
    border-radius: 15px;
 }
 
+@media (min-width: 1000px) {
+   .NavigationItem {
+      background-color: var(--white-color);
+   }
+}
+
 .NavigationItem a,
 .NavigationItem h3 {
    font-family: 'Raleway-Medium';

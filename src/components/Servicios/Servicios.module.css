@@ -1,0 +1,25 @@
+.Servicios {
+   display: flex;
+   flex-flow: column;
+}
+
+.Servicio h1 {
+   font-size: 36px;
+}
+h2 {
+   line-height: 1.7;
+}
+.Icono img {
+   margin: 30px;
+}
+
+@media (min-width: 1000px) {
+   .Servicios {
+      flex-flow: row;
+      padding: 30px 50px;
+   }
+
+   .Servicio {
+      padding: 0 50px;
+   }
+}

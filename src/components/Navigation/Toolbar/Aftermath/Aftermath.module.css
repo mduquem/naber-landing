@@ -1,0 +1,10 @@
+.Aftermath img {
+   width: 50%;
+   height: auto;
+}
+
+@media (min-width: 1000px) {
+   .Aftermath {
+      display: none;
+   }
+}

@@ -1,0 +1,47 @@
+.SideDrawer {
+   position: fixed;
+   width: 70%;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   z-index: 500;
+   background: var(--white-color);
+   box-sizing: border-box;
+   display: flex;
+   flex-flow: column;
+   flex-wrap: nowrap;
+   box-shadow: 2px solid black;
+   animation: rightToLeft 0.5s;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.Logo img {
+   width: 60%;
+}
+
+@media (min-width: 1000px) {
+   .SideDrawer {
+      display: none;
+   }
+}
+
+@keyframes closeDrawer {
+   from {
+      transform: translateX(0);
+   }
+
+   to {
+      transform: translateX(-100%);
+   }
+}
+
+@keyframes rightToLeft {
+   from {
+      transform: translateX(200%);
+   }
+
+   to {
+      transform: translateX(0);
+   }
+}

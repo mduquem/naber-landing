@@ -1,0 +1,61 @@
+.Portafolio {
+   background: var(--primary-color);
+   display: flex;
+   flex-flow: column;
+}
+
+.Portafolio h2,
+h3 {
+   color: var(--white-color);
+}
+.Portafolio h3 {
+   font-size: 16px;
+   text-align: justify;
+   padding: 0 30px;
+   line-height: 1.6;
+}
+
+.Title h2 {
+   font-size: 36px;
+}
+
+.Portafolio ul li {
+   clear: both;
+   height: 100%;
+}
+
+.Title img {
+   width: 70px;
+   height: 70px;
+   margin: 10px 20px;
+}
+
+.Title {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 10px 15px 0 10px;
+   padding: 0;
+}
+
+@media (min-width: 1000px) {
+   .Portafolio {
+      padding: 30px auto;
+      flex-flow: row-reverse;
+      justify-content: center;
+      align-items: center;
+   }
+   .List {
+      display: flex;
+      justify-content: space-around;
+      margin: 50px auto;
+      width: 540px;
+   }
+   .Title {
+      margin: 50px 100px;
+      flex-direction: column-reverse;
+   }
+   .Title img {
+      width: 80px;
+   }
+}

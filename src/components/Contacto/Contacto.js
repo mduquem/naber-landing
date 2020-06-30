@@ -7,9 +7,13 @@ const Contacto = () => {
    return (
       <div className={classes.Contacto}>
          <h1>
-            <AnimatedTitle>¿Qué esperas para entrar en la era digital?</AnimatedTitle>
+            <AnimatedTitle>¿Qué esperas?</AnimatedTitle>
          </h1>
-         <a href='mailto:aftermathventures.col@gmail.com'>
+         <h4>
+            Lograrás administrar tantas propiedades horizontales como desees, y siempre generando
+            valor a tus clientes.
+         </h4>
+         <a href='https://naber.co'>
             <Reveal animation={Animation.BounceInRight}>
                {' '}
                <button>Contáctanos</button>

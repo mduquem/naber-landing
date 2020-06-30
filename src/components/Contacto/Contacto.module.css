@@ -10,6 +10,13 @@
    color: var(--white-color);
 }
 
+.Contacto h4 {
+   color: white;
+   margin: 20px;
+   font-size: 20px;
+   font-family: 'Raleway-Light';
+}
+
 .Contacto button {
    margin-top: 0;
    color: var(--primary-color);
@@ -23,5 +30,10 @@
    }
    .Contacto button {
       margin-bottom: 100px;
+   }
+
+   .Contacto h4 {
+      width: 600px;
+      margin: 0 auto 50px auto;
    }
 }

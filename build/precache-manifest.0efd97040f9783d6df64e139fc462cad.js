@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40d430f36b979ec5e64576ca58f2fa3f",
+    "revision": "d812ca0b918df69c6c1dbf7c0199a119",
     "url": "/index.html"
   },
   {
-    "revision": "7becf46c412198d7b577",
-    "url": "/static/css/main.183aa180.chunk.css"
+    "revision": "789b306166c9b7ad0d89",
+    "url": "/static/css/main.01590fdf.chunk.css"
   },
   {
-    "revision": "0a1cc1ceb25b3675ab84",
-    "url": "/static/js/2.5ec53393.chunk.js"
+    "revision": "7f84516b177186c4c197",
+    "url": "/static/js/2.a7d37eee.chunk.js"
   },
   {
-    "revision": "7becf46c412198d7b577",
-    "url": "/static/js/main.f0105e71.chunk.js"
+    "revision": "789b306166c9b7ad0d89",
+    "url": "/static/js/main.b078bbe8.chunk.js"
   },
   {
     "revision": "e71c22aa549ccee36808",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SourceCodePro-Medium.f621c504.ttf"
   },
   {
-    "revision": "8f17f38bf3ee363fa4fd75aa3c4e48de",
-    "url": "/static/media/facebook.8f17f38b.svg"
+    "revision": "518af85abc59d0ffbf94971d8cba512c",
+    "url": "/static/media/facebook.518af85a.svg"
   },
   {
     "revision": "a2f549083a010fbc9cba6680751db1c2",
@@ -76,23 +76,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/icon2.9bb1b11a.svg"
   },
   {
-    "revision": "500264bbf895e35d78671a358bfc5c33",
-    "url": "/static/media/icon3.500264bb.svg"
+    "revision": "8bf9dea852a3100303d5dc1360cfb485",
+    "url": "/static/media/instagram.8bf9dea8.svg"
   },
   {
-    "revision": "7c8ad2a4556b2990c0cb12904fa5f679",
-    "url": "/static/media/instagram.7c8ad2a4.svg"
-  },
-  {
-    "revision": "774f9934afd17db0541542240bb82d7d",
-    "url": "/static/media/logo.774f9934.png"
+    "revision": "dbd21f89d79019eefb3c619bb3e2a40d",
+    "url": "/static/media/naber.dbd21f89.png"
   },
   {
     "revision": "5d98f48e3ba4545310bfbdf21b54fbd6",
     "url": "/static/media/name.5d98f48e.png"
   },
   {
-    "revision": "8f61c331c81374a3f80edcc48963e356",
-    "url": "/static/media/whatsapp.8f61c331.svg"
+    "revision": "9970759fe9a8ab8234afedd3fc6bde98",
+    "url": "/static/media/whatsapp.9970759f.svg"
   }
 ]);

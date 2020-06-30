@@ -1,5 +1,5 @@
 import React from 'react';
-import { Reveal } from 'react-genie';
+import { Reveal, AnimatedTitle } from 'react-genie';
 
 import classes from './Servicios.module.css';
 import iconoUno from '../../assets/svg/icon1.svg';
@@ -8,68 +8,116 @@ import iconoTres from '../../assets/svg/icon3.svg';
 
 const Servicios = () => {
    return (
-      <div className={classes.Servicios}>
-         <Reveal>
-            <div className={classes.Servicio}>
-               <h1>
-                  <span>¿</span>De que forma agregamos valor<span>?</span>
-               </h1>
+      <>
+         <div className={classes.Title}>
+            <h2>
+               <AnimatedTitle>¿De que forma agregamos valor?</AnimatedTitle>
+            </h2>
+         </div>
+         <div className={classes.Servicios}>
+            <Reveal>
+               <div className={classes.Servicio}>
+                  <h1>Si eres administrador:</h1>
 
-               <h2>
-                  Los administradores de propiedad horizontal tendrán una plataforma Web en la que
-                  se puede manejar la información de la propiedad eficientemente. De igual manera se
-                  habilita un chat para que estos separen su vida persona de la laboral.
-               </h2>
+                  <ul>
+                     <li>
+                        <h2>
+                           Acceso a una plataforma web para la base de datos de la propiedad
+                           horizontal
+                        </h2>
+                     </li>
 
-               <div className={classes.Icono}>
-                  <img
-                     src={iconoUno}
-                     alt='Empieza desde cero con tu emprendimiento o idea de negocio'
-                  />
+                     <li>
+                        <h2>Recaudo automatizado de cartera</h2>
+                     </li>
+
+                     <li>
+                        <h2>Chat para comunicarse con los propietarios, arrendatarios y lobby</h2>
+                     </li>
+                     <li>
+                        <h2>Emisión de encuestas y votaciones para la toma de decisiones</h2>
+                     </li>
+                  </ul>
+
+                  <div className={classes.Icono}>
+                     <img
+                        src={iconoUno}
+                        alt='Empieza desde cero con tu emprendimiento o idea de negocio'
+                     />
+                  </div>
                </div>
-            </div>
-         </Reveal>
+            </Reveal>
 
-         <Reveal>
-            <div className={classes.Servicio}>
-               <h1>
-                  1<span>/</span> Conecta con tus clientes<span>.</span>
-               </h1>
+            <Reveal>
+               <div className={classes.Servicio}>
+                  <h1>Si eres propietario, arrendatario o habitante:</h1>
 
-               <h2>
-                  Tu marca es el conjunto de sensaciones que despiertas en{' '}
-                  <strong>tu cliente. </strong>
-                  No por nada es una de las características más importantes que tu negocio debe
-                  desarrollar.
-               </h2>
-               <div className={classes.Icono}>
-                  <img
-                     src={iconoDos}
-                     alt='Conecta con tus clientes con una marca poderosa e innovadora'
-                  />
+                  <ul>
+                     <li>
+                        <h2>
+                           Acceso APP móvil para Android y iOS con toda la información de tu
+                           propiedad
+                        </h2>
+                     </li>
+
+                     <li>
+                        <h2>Pago de cuotas administrativas desde la APP</h2>
+                     </li>
+
+                     <li>
+                        <h2>Chat para comunicarse con el lobby y la administración</h2>
+                     </li>
+                     <li>
+                        <h2>
+                           Información de manuales y reglamentos, zonas comunes y noticias
+                           relevantes de la copropiedad
+                        </h2>
+                     </li>
+                  </ul>
+                  <div className={classes.Icono}>
+                     <img
+                        src={iconoDos}
+                        alt='Conecta con tus clientes con una marca poderosa e innovadora'
+                     />
+                  </div>
                </div>
-            </div>
-         </Reveal>
+            </Reveal>
+            <Reveal>
+               <div className={classes.Servicio}>
+                  <h1>
+                     Pensando en la seguridad de la propiedad horizontal hemos desarrollado una APP
+                     específicamente para el <strong>Lobby</strong>
+                  </h1>
 
-         <Reveal>
-            <div className={classes.Servicio}>
-               <h1>
-                  2<span>/ </span>Desarrolla tu futuro<span>.</span>
-               </h1>
-               <h2>
-                  El siguiente paso es el desarrollo y la implementación de tu MVP. Luego, debes
-                  recibir de tu cliente la <strong>valiosa retroalimentación </strong>que necesitas
-                  para la siguiente iteración de tu <strong>modelo de negocio.</strong>
-               </h2>
-               <div className={classes.Icono}>
-                  <img
-                     src={iconoTres}
-                     alt='Desarrolla tu futuro al tener tu negocio en la web y accede a clientes en todo el mundo'
-                  />
+                  <ul>
+                     <li>
+                        <h2>
+                           Acceso APP móvil para Android y iOS con toda la información de la
+                           propiedad horizontal
+                        </h2>
+                     </li>
+
+                     <li>
+                        <h2>
+                           Chat para comunicarse con la administración, propietarios, arrendatarios
+                           y habitantes
+                        </h2>
+                     </li>
+
+                     <li>
+                        <h2>Registro de visitantes automatizado</h2>
+                     </li>
+                  </ul>
+                  <div className={classes.Icono}>
+                     <img
+                        src={iconoTres}
+                        alt='Conecta con tus clientes con una marca poderosa e innovadora'
+                     />
+                  </div>
                </div>
-            </div>
-         </Reveal>
-      </div>
+            </Reveal>
+         </div>
+      </>
    );
 };
 

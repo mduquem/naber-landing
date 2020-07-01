@@ -7,10 +7,10 @@ import Contacto from '../Contacto/Contacto';
 const Main = () => {
    return (
       <div>
-         <Landing />
-         <Portafolio />
-         <Servicios />
-         <Contacto />
+         <Landing id='landing' />
+         <Portafolio id='naber' />
+         <Servicios id='apps' />
+         <Contacto id='contacto' />
       </div>
    );
 };

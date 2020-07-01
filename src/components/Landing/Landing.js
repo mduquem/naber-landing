@@ -1,8 +1,6 @@
 import React from 'react';
 import { Reveal, Animation } from 'react-genie';
 
-import classes from './Landing.module.css';
-
 import people from '../../assets/img/people.png';
 
 const Landing = () => {

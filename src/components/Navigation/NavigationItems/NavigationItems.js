@@ -7,17 +7,37 @@ const NavigationItems = (props) => {
    return (
       <div className={classes.NavigationItems}>
          <ul>
-            <NavigationItem clicked={props.clicked} link='/'>
+            <NavigationItem
+               link={{
+                  to: '/home',
+                  hash: '#landing',
+               }}
+            >
                Inicio
             </NavigationItem>
-            <NavigationItem clicked={props.clicked} link='#quienes'>
+            <NavigationItem
+               link={{
+                  to: '/home',
+                  hash: '#naber',
+               }}
+            >
                ¿Quiénes somos?
             </NavigationItem>
-            <NavigationItem clicked={props.clicked} link='#beneficios'>
-               Beneficios para ti
+            <NavigationItem
+               link={{
+                  to: '/home',
+                  hash: '#apps',
+               }}
+            >
+               Propuesta de Valor
             </NavigationItem>
-            <NavigationItem clicked={props.clicked} link='#contacto'>
-               Contáctanos
+            <NavigationItem
+               link={{
+                  to: '/home',
+                  hash: '#contacto',
+               }}
+            >
+               Contacto
             </NavigationItem>
          </ul>
       </div>

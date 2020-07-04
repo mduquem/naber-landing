@@ -17,6 +17,10 @@ function App() {
       });
    };
 
+   const hideDrawer = () => {
+      setShowDrawer(false);
+   };
+
    return (
       <div className='App'>
          <RevealGlobalStyles />

@@ -8,10 +8,18 @@ const NavigationItems = (props) => {
       <div className={classes.NavigationItems}>
          <nav>
             <ul>
-               <NavigationItem link='#landing'>Inicio</NavigationItem>
-               <NavigationItem link='#naber'>¿Quiénes somos?</NavigationItem>
-               <NavigationItem link='#apps'>Propuesta de Valor</NavigationItem>
-               <NavigationItem link='#contacto'>Contacto</NavigationItem>
+               <NavigationItem clicked={props.clicked} link='#landing'>
+                  Inicio
+               </NavigationItem>
+               <NavigationItem clicked={props.clicked} link='#naber'>
+                  ¿Quiénes somos?
+               </NavigationItem>
+               <NavigationItem clicked={props.clicked} link='#apps'>
+                  Propuesta de Valor
+               </NavigationItem>
+               <NavigationItem clicked={props.clicked} link='#contacto'>
+                  Contacto
+               </NavigationItem>
 
                <div className='d-flex justify-content-center align-items-center'>
                   <a

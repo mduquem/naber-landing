@@ -6,12 +6,20 @@ import Contacto from '../Contacto/Contacto';
 
 const Main = () => {
    return (
-      <div>
-         <Landing id='landing' />
-         <Portafolio id='naber' />
-         <Servicios id='apps' />
-         <Contacto id='contacto' />
-      </div>
+      <>
+         <section id='landing'>
+            <Landing />
+         </section>
+         <section id='naber'>
+            <Portafolio />
+         </section>
+         <section id='apps'>
+            <Servicios />
+         </section>
+         <section id='contacto'>
+            <Contacto />
+         </section>
+      </>
    );
 };
 

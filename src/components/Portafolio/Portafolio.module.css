@@ -14,6 +14,13 @@ h3 {
    padding: 0 30px;
    line-height: 1.6;
 }
+.Portafolio h2 {
+   font-size: 32px;
+   text-align: justify;
+   padding: 0 30px;
+   line-height: 1.6;
+   font-weight: 900;
+}
 
 .Portafolio ul li {
    clear: both;

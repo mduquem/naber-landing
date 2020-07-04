@@ -28,11 +28,7 @@ function App() {
          ) : null}
          <Toolbar showDrawer={showDrawer} setShowDrawer={setShowDrawer} />
          <main>
-            <Switch>
-               <Route path='/home'>
-                  <Main />
-               </Route>
-            </Switch>
+            <Main />
          </main>
          <footer>
             <Footer />

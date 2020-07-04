@@ -4,11 +4,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-const app = (
-   <Router>
-      <App />
-      <Redirect to='/home' />
-   </Router>
-);
+const app = <App />;
 
 ReactDOM.render(app, document.getElementById('root'));

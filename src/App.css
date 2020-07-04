@@ -60,6 +60,7 @@ button {
    cursor: pointer;
    color: var(--white-color);
    border-radius: 15px;
+   font-weight: 900;
 }
 
 img {

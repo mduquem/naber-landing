@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21970bfe1348839c74e9d85d11b2babd",
+    "revision": "945c552d4a76c582277d4b3b22ab0fab",
     "url": "/index.html"
   },
   {
-    "revision": "c71c92dfcdf6a5850f48",
-    "url": "/static/css/main.7682e500.chunk.css"
+    "revision": "51be1e907cc3a097de05",
+    "url": "/static/css/main.fdf1df14.chunk.css"
   },
   {
-    "revision": "6031eae18eed24a62c91",
-    "url": "/static/js/2.7a60c52b.chunk.js"
+    "revision": "67227f72f6d034dfa9bf",
+    "url": "/static/js/2.3a9277ac.chunk.js"
   },
   {
-    "revision": "c71c92dfcdf6a5850f48",
-    "url": "/static/js/main.3cf0d02f.chunk.js"
+    "revision": "51be1e907cc3a097de05",
+    "url": "/static/js/main.2bbd66ac.chunk.js"
   },
   {
     "revision": "e71c22aa549ccee36808",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9942588a6c84f959132556d99e83ded6",
     "url": "/static/media/Raleway-Regular.9942588a.ttf"
-  },
-  {
-    "revision": "518af85abc59d0ffbf94971d8cba512c",
-    "url": "/static/media/facebook.518af85a.svg"
   },
   {
     "revision": "a2f549083a010fbc9cba6680751db1c2",
